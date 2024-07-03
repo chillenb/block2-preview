@@ -22,6 +22,7 @@
 
 #include "../core/parallel_rule.hpp"
 #include <memory>
+#include <array>
 
 using namespace std;
 
