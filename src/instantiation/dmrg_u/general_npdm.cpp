@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/general_npdm.hpp"
 
 template struct block2::GeneralNPDMMPO<block2::SZ, double>;
 template struct block2::GeneralNPDMMPO<block2::SU2, double>;

@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/qc_hamiltonian.hpp"
 
 template struct block2::HamiltonianQC<block2::SZ, double>;
 template struct block2::HamiltonianQC<block2::SU2, double>;

@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_big_site.hpp"
+//#include "../block2_big_site.hpp"
+#include "../../big_site/qc_hamiltonian_big_site.hpp"
 
 template struct block2::HamiltonianQCBigSite<block2::SZ, double>;
 template struct block2::HamiltonianQCBigSite<block2::SU2, double>;

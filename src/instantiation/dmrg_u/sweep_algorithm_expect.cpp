@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/sweep_algorithm_expect.hpp"
 
 template struct block2::Expect<block2::SZ, double, double, double>;
 template struct block2::Expect<block2::SU2, double, double, double>;

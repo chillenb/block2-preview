@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/determinant.hpp"
 
 template struct block2::DeterminantTRIE<block2::SGF, complex<float>>;
 template struct block2::DeterminantTRIE<block2::SGB, complex<float>>;

@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/mps.hpp"
 
 template struct block2::MPSInfo<block2::SZ>;
 template struct block2::DynamicMPSInfo<block2::SZ>;

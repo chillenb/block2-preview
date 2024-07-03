@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_big_site.hpp"
+//#include "../block2_big_site.hpp"
+#include "../../big_site/drt_big_site.hpp"
 
 template struct block2::ElemMat<block2::SZ, double>;
 template struct block2::DRT<block2::SZ, block2::ElemOpTypes::SZ>;

@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/archived_mpo.hpp"
 
 template struct block2::ArchivedMPO<block2::SZK, complex<double>>;
 template struct block2::ArchivedMPO<block2::SU2K, complex<double>>;

@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_big_site.hpp"
+//#include "../block2_big_site.hpp"
+#include "../../big_site/big_site.hpp"
 
 template struct block2::BigSite<block2::SZ, double>;
 template struct block2::SimplifiedBigSite<block2::SZ, double>;

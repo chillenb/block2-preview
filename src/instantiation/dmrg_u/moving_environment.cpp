@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/moving_environment.hpp"
 
 template struct block2::MovingEnvironment<block2::SZ, double, double>;
 template struct block2::MovingEnvironment<block2::SU2, double, double>;

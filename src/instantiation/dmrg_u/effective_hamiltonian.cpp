@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/effective_hamiltonian.hpp"
 
 template struct block2::EffectiveHamiltonian<block2::SZ, double,
                                              block2::MPS<block2::SZ, double>>;

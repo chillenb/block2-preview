@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/parallel_mpo.hpp"
 
 template struct block2::ClassicParallelMPO<block2::SZ, double>;
 template struct block2::ParallelMPO<block2::SZ, double>;

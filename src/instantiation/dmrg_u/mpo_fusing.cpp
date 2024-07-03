@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/mpo_fusing.hpp"
 
 template struct block2::StackedMPO<block2::SZ, double>;
 template struct block2::CondensedMPO<block2::SZ, double>;

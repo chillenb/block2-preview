@@ -18,6 +18,7 @@
  *
  */
 
-#include "../block2_big_site.hpp"
+//#include "../block2_big_site.hpp"
+#include "../../big_site/sci_fock_big_site.hpp"
 
 template struct block2::SCIFockBigSite<block2::SZ, double>;

@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/qc_parallel_rule.hpp"
 
 template struct block2::ParallelRuleQC<block2::SZ, double>;
 template struct block2::ParallelRuleOneBodyQC<block2::SZ, double>;

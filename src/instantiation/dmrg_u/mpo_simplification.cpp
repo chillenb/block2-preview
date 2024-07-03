@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/mpo_simplification.hpp"
 
 template struct block2::SimplifiedMPO<block2::SZ, double>;
 template struct block2::SimplifiedMPO<block2::SU2, double>;

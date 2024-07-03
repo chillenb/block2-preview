@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/sweep_algorithm_linear.hpp"
 
 template struct block2::Linear<block2::SZ, double, double>;
 template struct block2::Linear<block2::SU2, double, double>;

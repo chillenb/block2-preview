@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/qc_ncorr.hpp"
 
 template struct block2::NPC1MPOQC<block2::SZ, double>;
 template struct block2::NPC1MPOQC<block2::SU2, double>;

@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_dmrg.hpp"
+//#include "../block2_dmrg.hpp"
+#include "../../dmrg/determinant.hpp"
 
 template struct block2::DeterminantTRIE<block2::SZK, double>;
 template struct block2::DeterminantQC<block2::SZK, double>;

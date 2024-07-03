@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_big_site.hpp"
+//#include "../block2_big_site.hpp"
+#include "../../big_site/drt_mps.hpp"
 
 template struct block2::DRTMPS<block2::SZ, double, block2::ElemOpTypes::SZ>;
 template struct block2::HDRTMPO<block2::SZ, double, block2::ElemOpTypes::SZ>;
