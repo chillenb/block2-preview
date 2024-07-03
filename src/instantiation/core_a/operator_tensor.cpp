@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/operator_tensor.hpp"
 
 template struct block2::OperatorTensor<block2::SAny, double>;
 template struct block2::DelayedOperatorTensor<block2::SAny, double>;

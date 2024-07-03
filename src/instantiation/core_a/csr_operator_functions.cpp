@@ -18,6 +18,7 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/csr_operator_functions.hpp"
 
 template struct block2::CSROperatorFunctions<block2::SAny, double>;

@@ -18,6 +18,7 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/csr_sparse_matrix.hpp"
 
 template struct block2::CSRSparseMatrix<block2::SAny, double>;

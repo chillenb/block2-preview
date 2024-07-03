@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/symbolic.hpp"
 
 template struct block2::Symbolic<block2::SAny>;
 template struct block2::SymbolicRowVector<block2::SAny>;

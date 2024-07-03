@@ -18,6 +18,7 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/archived_tensor_functions.hpp"
 
 template struct block2::ArchivedTensorFunctions<block2::SAny, double>;

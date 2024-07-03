@@ -18,6 +18,7 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/tensor_functions.hpp"
 
 template struct block2::TensorFunctions<block2::SAny, double>;

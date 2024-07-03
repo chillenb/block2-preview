@@ -18,6 +18,7 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/clebsch_gordan.hpp"
 
 template struct block2::CG<block2::SAny>;

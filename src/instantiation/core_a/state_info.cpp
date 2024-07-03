@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/state_info.hpp"
 
 template struct block2::StateInfo<block2::SAny>;
 template struct block2::StateProbability<block2::SAny>;

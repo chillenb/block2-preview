@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/hamiltonian.hpp"
 
 template struct block2::Hamiltonian<block2::SAny, double>;
 template struct block2::DelayedSparseMatrix<

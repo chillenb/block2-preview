@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/parallel_mpi.hpp"
 
 #ifdef _HAS_MPI
 template struct block2::MPICommunicator<block2::SAny>;

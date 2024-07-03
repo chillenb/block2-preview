@@ -18,6 +18,7 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/archived_sparse_matrix.hpp"
 
 template struct block2::ArchivedSparseMatrix<block2::SAny, double>;

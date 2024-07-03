@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/parallel_rule.hpp"
 
 template struct block2::ParallelCommunicator<block2::SAny>;
 template struct block2::ParallelRule<block2::SAny>;

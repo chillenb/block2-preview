@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/expr.hpp"
 
 template struct block2::OpExpr<block2::SAny>;
 template struct block2::OpExprRef<block2::SAny>;

@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/rule.hpp"
 
 template struct block2::Rule<block2::SAny, double>;
 template struct block2::NoTransposeRule<block2::SAny, double>;

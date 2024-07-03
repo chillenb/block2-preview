@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/sparse_matrix.hpp"
 
 template struct block2::SparseMatrixInfo<block2::SAny>;
 template struct block2::SparseMatrix<block2::SAny, double>;
