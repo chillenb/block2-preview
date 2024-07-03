@@ -19,7 +19,7 @@
  */
 
 //#include "../block2_dmrg.hpp"
-#include "../../dmrg/sweep_algorithm_dmrg.hpp"
+#include "../../dmrg/sweep_algorithm.hpp"
 #include "../../core/symmetry.hpp"
 
 template struct block2::DMRG<block2::SZ, double, double>;
