@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/batch_gemm.hpp"
 
 template struct block2::BatchGEMM<double>;
 template struct block2::BatchGEMMRef<double>;

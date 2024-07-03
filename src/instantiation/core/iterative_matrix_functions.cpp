@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/iterative_matrix_functions.hpp"
 
 template struct block2::IterativeMatrixFunctions<double>;
 template struct block2::IterativeMatrixFunctions<complex<double>>;

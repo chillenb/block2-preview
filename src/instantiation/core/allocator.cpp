@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/allocator.hpp"
 
 template struct block2::Allocator<uint32_t>;
 template struct block2::StackAllocator<uint32_t>;

@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/integral_general.hpp"
 
 template struct block2::GeneralFCIDUMP<double>;
 template struct block2::GeneralFCIDUMP<complex<double>>;

@@ -18,7 +18,9 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/matrix_functions.hpp"
+#include "../../core/complex_matrix_functions.hpp"
 
 template struct block2::GMatrixFunctions<double>;
 template struct block2::GMatrixFunctions<complex<double>>;

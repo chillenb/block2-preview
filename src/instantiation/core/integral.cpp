@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/integral.hpp"
 
 template struct block2::FCIDUMP<double>;
 template struct block2::SpinOrbitalFCIDUMP<double>;

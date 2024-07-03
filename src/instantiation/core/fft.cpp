@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/fft.hpp"
 
 template struct block2::FactorizedFFT<block2::RaderFFT<>, 2, 3, 5, 7, 11>;
 template struct block2::FactorizedFFT<block2::BluesteinFFT<>, 2, 3, 5, 7, 11>;

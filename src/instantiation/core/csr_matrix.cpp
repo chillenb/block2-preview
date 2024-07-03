@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/csr_matrix.hpp"
 
 template struct block2::GCSRMatrix<double>;
 template struct block2::GCSRMatrix<complex<double>>;

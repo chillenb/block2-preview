@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/matrix.hpp"
 
 template struct block2::GMatrix<double>;
 template struct block2::GDiagonalMatrix<double>;

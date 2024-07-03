@@ -18,7 +18,8 @@
  *
  */
 
-#include "../block2_core.hpp"
+//#include "../block2_core.hpp"
+#include "../../core/fp_codec.hpp"
 
 template struct block2::FPCodec<double>;
 template struct block2::CompressedVector<double>;
