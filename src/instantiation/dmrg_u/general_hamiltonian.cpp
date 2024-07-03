@@ -20,6 +20,7 @@
 
 //#include "../block2_dmrg.hpp"
 #include "../../dmrg/general_hamiltonian.hpp"
+#include "../../core/symmetry.hpp"
 
 template struct block2::GeneralHamiltonian<block2::SZ, double>;
 template struct block2::GeneralHamiltonian<block2::SU2, double>;

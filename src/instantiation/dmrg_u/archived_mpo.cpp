@@ -20,6 +20,7 @@
 
 //#include "../block2_dmrg.hpp"
 #include "../../dmrg/archived_mpo.hpp"
+#include "../../core/symmetry.hpp"
 
 template struct block2::ArchivedMPO<block2::SZ, double>;
 template struct block2::ArchivedMPO<block2::SU2, double>;

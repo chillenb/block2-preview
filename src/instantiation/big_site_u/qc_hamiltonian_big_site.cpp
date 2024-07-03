@@ -19,6 +19,7 @@
  */
 
 //#include "../block2_big_site.hpp"
+#include "../../core/symmetry.hpp"
 #include "../../big_site/qc_hamiltonian_big_site.hpp"
 
 template struct block2::HamiltonianQCBigSite<block2::SZ, double>;

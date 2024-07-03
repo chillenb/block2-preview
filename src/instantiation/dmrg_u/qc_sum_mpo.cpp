@@ -20,5 +20,6 @@
 
 //#include "../block2_dmrg.hpp"
 #include "../../dmrg/qc_sum_mpo.hpp"
+#include "../../core/symmetry.hpp"
 
 template struct block2::SumMPOQC<block2::SZ, double>;

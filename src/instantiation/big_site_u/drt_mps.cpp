@@ -19,6 +19,7 @@
  */
 
 //#include "../block2_big_site.hpp"
+#include "../../core/symmetry.hpp"
 #include "../../big_site/drt_mps.hpp"
 
 template struct block2::DRTMPS<block2::SZ, double, block2::ElemOpTypes::SZ>;

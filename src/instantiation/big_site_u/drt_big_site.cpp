@@ -19,6 +19,7 @@
  */
 
 //#include "../block2_big_site.hpp"
+#include "../../core/symmetry.hpp"
 #include "../../big_site/drt_big_site.hpp"
 
 template struct block2::ElemMat<block2::SZ, double>;

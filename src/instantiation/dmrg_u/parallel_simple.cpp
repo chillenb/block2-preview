@@ -20,6 +20,7 @@
 
 //#include "../block2_dmrg.hpp"
 #include "../../dmrg/parallel_simple.hpp"
+#include "../../core/symmetry.hpp"
 
 template struct block2::ParallelRuleSimple<block2::SZ, double>;
 template struct block2::SumMPORule<block2::SZ, double>;

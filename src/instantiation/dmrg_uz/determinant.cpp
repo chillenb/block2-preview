@@ -20,6 +20,7 @@
 
 //#include "../block2_dmrg.hpp"
 #include "../../dmrg/determinant.hpp"
+#include "../../core/symmetry.hpp"
 
 template struct block2::DeterminantTRIE<block2::SZ, complex<double>>;
 template struct block2::DeterminantQC<block2::SZ, complex<double>>;

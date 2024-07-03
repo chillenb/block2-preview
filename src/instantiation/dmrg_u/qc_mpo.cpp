@@ -20,6 +20,7 @@
 
 //#include "../block2_dmrg.hpp"
 #include "../../dmrg/qc_mpo.hpp"
+#include "../../core/symmetry.hpp"
 
 template struct block2::IdentityMPO<block2::SZ, double>;
 template struct block2::SiteMPO<block2::SZ, double>;

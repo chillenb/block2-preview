@@ -19,6 +19,7 @@
  */
 
 //#include "../block2_big_site.hpp"
+#include "../../core/symmetry.hpp"
 #include "../../big_site/sweep_algorithm_big_site.hpp"
 
 template struct block2::DMRGBigSite<block2::SZ, double, double>;

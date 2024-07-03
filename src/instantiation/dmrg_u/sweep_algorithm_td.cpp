@@ -20,6 +20,7 @@
 
 //#include "../block2_dmrg.hpp"
 #include "../../dmrg/sweep_algorithm_td.hpp"
+#include "../../core/symmetry.hpp"
 
 template struct block2::TDDMRG<block2::SZ, double, double>;
 template struct block2::TimeEvolution<block2::SZ, double, double>;

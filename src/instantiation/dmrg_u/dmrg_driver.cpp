@@ -20,6 +20,7 @@
 
 //#include "../block2_dmrg.hpp"
 #include "../../dmrg/dmrg_driver.hpp"
+#include "../../core/symmetry.hpp"
 
 template struct block2::DMRGDriver<block2::SZ, double>;
 template struct block2::DMRGDriver<block2::SU2, double>;

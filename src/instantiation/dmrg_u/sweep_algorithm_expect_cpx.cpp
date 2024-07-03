@@ -20,6 +20,7 @@
 
 //#include "../block2_dmrg.hpp"
 #include "../../dmrg/sweep_algorithm_expect.hpp"
+#include "../../core/symmetry.hpp"
 
 template struct block2::Expect<block2::SZ, double, double, complex<double>>;
 template struct block2::Expect<block2::SU2, double, double, complex<double>>;

@@ -20,6 +20,7 @@
 
 //#include "../block2_dmrg.hpp"
 #include "../../dmrg/mpo.hpp"
+#include "../../core/symmetry.hpp"
 
 template struct block2::MPOSchemer<block2::SZ>;
 template struct block2::MPO<block2::SZ, double>;

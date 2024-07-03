@@ -19,6 +19,7 @@
  */
 
 //#include "../block2_big_site.hpp"
+#include "../../core/symmetry.hpp"
 #include "../../big_site/csf_big_site.hpp"
 
 template struct block2::CSFSpace<block2::SU2, double>;

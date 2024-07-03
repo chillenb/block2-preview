@@ -20,6 +20,7 @@
 
 //#include "../block2_dmrg.hpp"
 #include "../../dmrg/state_averaged.hpp"
+#include "../../core/symmetry.hpp"
 
 template struct block2::MultiMPSInfo<block2::SZ>;
 template struct block2::MultiMPS<block2::SZ, double>;

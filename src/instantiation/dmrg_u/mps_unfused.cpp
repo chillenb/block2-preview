@@ -20,6 +20,7 @@
 
 //#include "../block2_dmrg.hpp"
 #include "../../dmrg/mps_unfused.hpp"
+#include "../../core/symmetry.hpp"
 
 template struct block2::SparseTensor<block2::SZ, double>;
 template struct block2::UnfusedMPS<block2::SZ, double>;
