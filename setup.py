@@ -64,6 +64,7 @@ class BinBuild(build_scripts):
 
 class CMakeBuild(build_ext):
     def build_extensions(self):
+        print("Running build_extensions in setup.py")
         # Ensure that CMake is present and working
         try:
             out = subprocess.check_output(["cmake", "--version"])
@@ -140,42 +141,30 @@ class CMakeBuild(build_ext):
             )
 
 
-from distutils.command.build import build
-
-build.sub_commands = [c for c in build.sub_commands if c[0] == "build_ext"] + [
-    c for c in build.sub_commands if c[0] != "build_ext"
-]
 
 
-setup(
-    name="block2",
-    version="0.1.10",
-    packages=find_packages(),
-    ext_modules=[CMakeExt("block2")],
-    cmdclass={"build_ext": CMakeBuild, "build_scripts": BinBuild},
-    license="LICENSE",
-    description="""An efficient MPO implementation of DMRG for quantum chemistry.""",
-    long_description=open("README.md").read(),
-    long_description_content_type="text/markdown",
-    author="Huanchen Zhai, Henrik R. Larsson, Seunghoon Lee, and Zhi-Hao Cui",
-    author_email="hczhai.ok@gmail.com",
-    url="https://github.com/block-hczhai/block2-preview",
-    install_requires=[
-        "mkl==2021.4",
-        "mkl-include",
-        "intel-openmp",
-        "numpy",
-        "cmake>=3.19",
-        "scipy",
-        "psutil",
-        "pybind11!=2.10.3,!=2.10.4,!=2.11.0,!=2.11.1",
-    ],
-    scripts=[
-        "pyblock2/driver/block2main",
-        "pyblock2/driver/gaopt",
-        "pyblock2/driver/readwfn.py",
-        "pyblock2/driver/writewfn.py",
-        "block2",
-    ],
-)
+if __name__ == '__main__':
+    import backendswitcher
+    backendname = backendswitcher.choose_build_backend()
 
+    if backendname == 'scikit_build_core.build':
+        setup()
+    else:
+        from distutils.command.build import build
+
+        build.sub_commands = [c for c in build.sub_commands if c[0] == "build_ext"] + [
+            c for c in build.sub_commands if c[0] != "build_ext"
+        ]
+
+        setup(
+            packages=find_packages(),
+            ext_modules=[CMakeExt("block2")],
+            cmdclass={"build_ext": CMakeBuild, "build_scripts": BinBuild},
+            scripts=[
+                "pyblock2/driver/block2main",
+                "pyblock2/driver/gaopt",
+                "pyblock2/driver/readwfn.py",
+                "pyblock2/driver/writewfn.py",
+                "block2",
+            ],
+        )

@@ -1,6 +1,8 @@
 [build-system]
-requires = ["scikit-build-core", "pybind11"]
-build-backend = "scikit_build_core.build"
+requires = ["setuptools >= 61", "pybind11"]
+build-backend = "backendswitcher"
+backend-path = ["."]
+#build-backend = "scikit_build_core.build"
 
 [project]
 name = "block2"
