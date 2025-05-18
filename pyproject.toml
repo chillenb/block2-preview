@@ -1,0 +1,34 @@
+[build-system]
+requires = ["scikit-build-core", "pybind11"]
+build-backend = "scikit_build_core.build"
+
+[project]
+name = "block2"
+description = "An efficient MPO implementation of DMRG for quantum chemistry."
+version = "0.1.10"
+license = "	GPL-3.0-only"
+license-files = ["LICENSE"]
+readme = "README.md"
+authors = [
+  { name = "Huanchen Zhai", email = "hczhai.ok@gmail.com" },
+  { name = "Henrik R. Larsson" },
+  { name = "Seunghoon Lee" },
+  { name = "Zhi-Hao Cui" },
+]
+
+[project.urls]
+Homepage = "https://github.com/block-hczhai/block2-preview"
+
+[tool.scikit-build]
+wheel.packages = ["pyblock2"]
+
+[tool.scikit-build.cmake.define]
+USE_MKL = "ON"
+BUILD_LIB = "ON"
+BUILD_EXE = "ON"
+LARGE_BOND = "ON"
+USE_KSYMM = "OFF"
+USE_COMPLEX = "ON"
+USE_SINGLE_PREC = "ON"
+USE_SG = "ON"
+USE_SANY = "ON"
